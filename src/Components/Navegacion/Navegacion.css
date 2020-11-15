@@ -3,4 +3,52 @@
     flex-direction: column;
     max-width: 5%;
     width: 5%;
+    height: 59rem;
+    background: #000000;
+}
+
+.o-nav-icons {
+    margin: 1rem;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0.3rem;
+}
+
+.o-nav-botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.o-nav-boton {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 30rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: #C0E8FF;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.o-nav-container-boton-select {
+    display: flex;
+    flex-direction: row;
+}
+
+.o-svg-boton {
+    align-self: center;
+    position: absolute;
+    margin-left: -1rem;
+}
+
+button.o-nav-boton.o-nav-boton-select {
+    background-color: #D1FFD5;
+}
+
+button.o-nav-boton.o-nav-boton-mas {
+    background-color: #4C4C4C;
 }
