@@ -1,0 +1,6 @@
+.o-navegacion {
+    display: flex;
+    flex-direction: column;
+    max-width: 5%;
+    width: 5%;
+}
