@@ -6,3 +6,38 @@
     height: 59rem;
     background: #FFFFFF;
 }
+
+.o-container-invoices-title {
+    margin-right: 5rem;
+}
+
+.o-container-first {
+    display: flex;
+    flex-direction: row;
+}
+
+.o-title-invoices {
+    margin-left: 3rem;
+}
+
+.o-container-invoices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.o-invoice {
+    margin-left: 3rem;
+}
+
+.o-outstanding-container-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.o-container-search-icon {
+    padding: 4rem;
+}
