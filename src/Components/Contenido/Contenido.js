@@ -1,9 +1,11 @@
 import React from "react";
 import "./Contenidos.css"
+import imgGrafica from "./grafica.png"
 
 function Contenidos() {
     return (
       <div className="o-contenidos">
+
         <div className="o-container-first">
           <div className="o-container-invoices-title">
             <h4 className="o-title-invoices">Invoices</h4>
@@ -33,10 +35,19 @@ function Contenidos() {
           <div className="o-container-search-icon">
             <p>L</p>
           </div>
-          
-
         </div>
         
+        <div className="o-container-second">
+          <div className="o-container-profits">
+            <div className="o-container-title-profits">
+              <h1>Total profit</h1>
+              <p>September 2020</p>
+              <p>L</p>
+            </div>
+            <img src={imgGrafica} className="o-img-grafica" alt="Imagen de grafica"></img>
+          </div>
+
+        </div>
         
       </div>
     );
