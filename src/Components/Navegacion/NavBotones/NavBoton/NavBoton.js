@@ -1,8 +1,8 @@
 import React from "react";
 
-function NavBoton() {
+function NavBoton({text}) {
     return (
-    <button className="o-nav-boton">▲</button>       
+    <button className="o-nav-boton">{text}</button>       
     );
   }
   

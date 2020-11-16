@@ -6,7 +6,7 @@ import NavBotonSelected from "./NavBotonSelected/NavBotonSelected";
 function NavBotones() {
     return (
     <div className="o-nav-botones">
-        <NavBoton></NavBoton>
+        <NavBoton text="▲"></NavBoton>
         <NavBotonSelected></NavBotonSelected>
         <NavBotonMas></NavBotonMas>
     </div>         
