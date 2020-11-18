@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contenidos.css"
 import imgGrafica from "./grafica.png"
+import imgWork from "./work.JPG"
 
 function Contenidos() {
     return (
@@ -46,7 +47,63 @@ function Contenidos() {
             </div>
             <img src={imgGrafica} className="o-img-grafica" alt="Imagen de grafica"></img>
           </div>
+          <div className="o-container-expenses">
+            <div className="o-container-title-expenses">
+              <h1>Expenses</h1>
+              <p>L</p>
+            </div>
+            <div className="o-container-cards-expenses">
+              <div className="o-card-expenses">
+                <div>
+                  <h5>$20.oo</h5>
+                  <p>l</p>
+                </div>
+                <p>23 Sep, 2020</p>
+                <p>L</p>
+                <h3>Software</h3>
+              </div>
+              <div className="o-card-expenses">
+                <div>
+                  <h5>$30.oo</h5>
+                  <p>l</p>
+                </div>
+                <p>26 Sep, 2020</p>
+                <p>L</p>
+                <h3>Management</h3>
+              </div>
+              <div className="o-card-expenses">
+                <div>
+                  <h5>$60.oo</h5>
+                  <p>l</p>
+                </div>
+                <p>22 Sep, 2020</p>
+                <p>L</p>
+                <h3>Support</h3>
+              </div>
+            </div>
 
+          </div>
+        </div>
+
+        <div className="o-container-third">
+          <div className="o-container-recenly">
+            <div className="o-container-recenly-title">
+              <h1>Total profit</h1>
+              <p>September 2020</p>
+            </div>
+            <div className="o-container-new-recenly">
+              <div className="o-upload-invoice">
+
+              </div>
+              <div className="o-recenly-invoice">
+
+              </div>
+              <div className="o-recenly-invoice">
+
+              </div>
+            </div>
+          </div>
+          <img src={imgWork} className="o-img-work" alt="Imagen de Work"></img>
         </div>
         
       </div>

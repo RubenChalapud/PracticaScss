@@ -58,3 +58,64 @@
 .o-img-grafica {
     width: 30rem;
 }
+
+.o-container-expenses {
+    display: flex;
+    flex-direction: column;
+}
+
+.o-container-title-expenses {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.o-card-expenses {
+    position: relative;
+    box-sizing: border-box;
+    width: 245px;
+    height: 338px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 1rem;
+    margin-top: 0;
+    background: #FBFBFB;
+}
+
+.o-card-expenses:before, .o-card-expenses:after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    height: 6px;
+    width: 290px;
+}
+
+    .o-card-expenses:before {
+    top: -5px;
+    background: radial-gradient(circle, transparent, transparent 50%, #FBFBFB 50%, #FBFBFB 100% ) -7px -8px / 16px 16px repeat-x,
+}
+      
+.o-card-expenses:after {
+    bottom: -5px;
+    background: radial-gradient(circle, transparent, transparent 50%, red 50%, red 100% ) -7px -2px / 16px 16px repeat-x,
+}
+
+.o-container-cards-expenses {
+    display: flex;
+    flex-direction: row;
+}
+
+.o-container-third {
+    display: flex;
+    flex-direction: row;
+}
+
+.o-container-recenly-title {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.o-img-work {
+    width: 26rem;
+}
