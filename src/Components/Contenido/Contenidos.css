@@ -90,7 +90,7 @@
     width: 290px;
 }
 
-    .o-card-expenses:before {
+.o-card-expenses:before {
     top: -5px;
     background: radial-gradient(circle, transparent, transparent 50%, #FBFBFB 50%, #FBFBFB 100% ) -7px -8px / 16px 16px repeat-x,
 }
@@ -114,6 +114,13 @@
     display: flex;
     flex-direction: row;
     align-items: baseline;
+}
+
+.o-recently-logos {
+    display: flex;
+    flex-direction: row;
+    margin-left: 18rem;
+    margin-right: 2rem;
 }
 
 .o-img-work {

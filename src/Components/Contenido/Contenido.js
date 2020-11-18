@@ -88,8 +88,12 @@ function Contenidos() {
         <div className="o-container-third">
           <div className="o-container-recenly">
             <div className="o-container-recenly-title">
-              <h1>Total profit</h1>
-              <p>September 2020</p>
+              <h1>Invoices</h1>
+              <p>recently created</p>
+              <div className="o-recently-logos">
+                <p>L</p>
+                <p>L</p>
+              </div>
             </div>
             <div className="o-container-new-recenly">
               <div className="o-upload-invoice">
