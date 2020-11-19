@@ -82,6 +82,14 @@
     background: #FBFBFB;
 }
 
+.o-card-expenses svg {
+    display: flex;
+    position: absolute;
+    transform: translateY(68px) translateX(-38px);
+    background: none;
+}
+
+
 
 .o-container-cards-expenses {
     display: flex;

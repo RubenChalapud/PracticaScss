@@ -70,6 +70,9 @@ function Contenidos() {
                 <p>26 Sep, 2020</p>
                 <p>L</p>
                 <h3>Management</h3>
+                <svg viewBox="0 0 1440 320"><path fill="black" fillOpacity= "1" d="M 100 300 A 0 50 0 1 1 250 250 L 308 297 L 396 264 L 429 297 L 495 264 L 550 297 L 572 264 L 660 286">
+                </path>
+                </svg>
               </div>
               <div className="o-card-expenses">
                 <div>
