@@ -96,7 +96,6 @@ function Contenidos() {
                 </svg>
               </div>
             </div>
-
           </div>
         </div>
 
@@ -127,13 +126,11 @@ function Contenidos() {
                   </div>
                 </div>
                 <div className="o-separador">
-
                 </div>
                 <div className="o-total-invoice">
                   <p>Viewed</p>
                   <p>$3,500</p>
                 </div>
-
               </div>
               <div className="o-recenly-invoice">
               <div className="o-container-numbers">
@@ -145,13 +142,11 @@ function Contenidos() {
                   </div>
                 </div>
                 <div className="o-separador">
-
                 </div>
                 <div className="o-total-invoice">
                   <p>Sent</p>
                   <p>$2,000</p>
                 </div>
-
               </div>
             </div>
           </div>
