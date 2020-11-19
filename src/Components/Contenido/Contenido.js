@@ -96,13 +96,46 @@ function Contenidos() {
               </div>
             </div>
             <div className="o-container-new-recenly">
-              <div className="o-upload-invoice">
+              <div className="o-recenly-invoice">
+                <div className="o-upload-box">
+                  <p>L</p>
+                  <p>Upload invoice</p>
+                </div>
+              </div>
+              <div className="o-recenly-invoice">
+                <div className="o-container-numbers">
+                  <div className="o-linea"></div>
+                  <div className="o-numbers-invoice">
+                    <p>#00106</p>
+                    <p>Mindtickle</p>
+                    <p>2 Sep, 2020</p>
+                  </div>
+                </div>
+                <div className="o-separador">
+
+                </div>
+                <div className="o-total-invoice">
+                  <p>Viewed</p>
+                  <p>$3,500</p>
+                </div>
 
               </div>
               <div className="o-recenly-invoice">
+              <div className="o-container-numbers">
+                  <div className="o-linea"></div>
+                  <div className="o-numbers-invoice">
+                    <p>#00105</p>
+                    <p>Cleancloud</p>
+                    <p>1 Sep, 2020</p>
+                  </div>
+                </div>
+                <div className="o-separador">
 
-              </div>
-              <div className="o-recenly-invoice">
+                </div>
+                <div className="o-total-invoice">
+                  <p>Sent</p>
+                  <p>$2,000</p>
+                </div>
 
               </div>
             </div>
