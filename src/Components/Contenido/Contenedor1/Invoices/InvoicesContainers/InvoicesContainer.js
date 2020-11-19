@@ -1,13 +1,12 @@
 import React from "react";
-import "./Contenidos.css"
 
 function OInvoices(props){
     return(
-        <div className="o-invoice">
+    <div className="o-invoice">
         <h5>{props.valor}</h5>
         <p>{props.name}</p>
     </div>
-        );
+    );
 }
 
 function InvoicesContainer() {

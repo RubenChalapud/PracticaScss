@@ -1,4 +1,6 @@
 import React from "react";
+import Contenedor1 from "./Contenedor1/Contenedor1";
+import Contenedor2 from "./Contenedor2/Contenedor2";
 import "./Contenidos.css"
 import imgGrafica from "./grafica.png"
 import imgWork from "./work.JPG"
@@ -9,95 +11,8 @@ import imgWork from "./work.JPG"
 function Contenidos() {
     return (
       <div className="o-contenidos">
-
-        <div className="o-container-first">
-          <div className="o-container-invoices-title">
-            <h4 className="o-title-invoices">Invoices</h4>
-            <div className="o-container-invoices">
-              <div className="o-invoice">
-                <h5>$12.095</h5>
-                <p>Overdue</p>
-              </div>
-              <div className="o-invoice">
-                <h5>$33.363</h5>
-                <p>Total outstanding</p>
-              </div>
-              <div className="o-invoice">
-                <h5>$4.500</h5>
-                <p>In draft</p>
-              </div>
-            </div>
-          </div>
-          <div className="o-container-outstanding-title">
-            <h4 className="o-title-outstanding">Outstanding revenue</h4>
-            <div className="o-outstanding-container-bar">
-              <button></button>
-              <h5>$21.3k</h5>
-            </div>
-            <p>$12.095 overdue</p>
-          </div>
-          <div className="o-container-search-icon">
-            <p>L</p>
-          </div>
-        </div>
-        
-        <div className="o-container-second">
-          <div className="o-container-profits">
-            <div className="o-container-title-profits">
-              <h1>Total profit</h1>
-              <p>September 2020</p>
-              <p>L</p>
-            </div>
-            <img src={imgGrafica} className="o-img-grafica" alt="Imagen de grafica"></img>
-          </div>
-          <div className="o-container-expenses">
-            <div className="o-container-title-expenses">
-              <h1>Expenses</h1>
-              <p>L</p>
-            </div>
-            <div className="o-container-cards-expenses">
-              <div className="o-card-expenses">
-                <div>
-                  <h5>$20.oo</h5>
-                  <p>l</p>
-                </div>
-                <p>23 Sep, 2020</p>
-                <p>L</p>
-                <h3>Software</h3>
-                <svg viewBox="0 500 670 98">
-                  <path fill="white" fillOpacity= "1" d="M 4 598 L 58 572 L 86 599 L 137 575 L 153 599 L 201 571 L 239 599 L 251 565 L 323 593 L 396 565 L 404 599 L 455 571 L 500 599 L 525 568 L 579 599 L 601 568 L 667 598">
-                  </path>
-                </svg>
-              </div>
-              <div className="o-card-expenses">
-                <div>
-                  <h5>$30.oo</h5>
-                  <p>l</p>
-                </div>
-                <p>26 Sep, 2020</p>
-                <p>L</p>
-                <h3>Management</h3>
-                <svg viewBox="0 500 670 98">
-                  <path fill="white" fillOpacity= "1" d="M 4 598 L 58 572 L 86 599 L 137 575 L 153 599 L 201 571 L 239 599 L 251 565 L 323 593 L 396 565 L 404 599 L 455 571 L 500 599 L 525 568 L 579 599 L 601 568 L 667 598">
-                  </path>
-                </svg>
-              </div>
-              <div className="o-card-expenses">
-                <div>
-                  <h5>$60.oo</h5>
-                  <p>l</p>
-                </div>
-                <p>22 Sep, 2020</p>
-                <p>L</p>
-                <h3>Support</h3>
-                <svg viewBox="0 500 670 98">
-                  <path fill="white" fillOpacity= "1" d="M 4 598 L 58 572 L 86 599 L 137 575 L 153 599 L 201 571 L 239 599 L 251 565 L 323 593 L 396 565 L 404 599 L 455 571 L 500 599 L 525 568 L 579 599 L 601 568 L 667 598">
-                  </path>
-                </svg>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Contenedor1></Contenedor1>
+        <Contenedor2 imgGrafica={imgGrafica}></Contenedor2>
 
         <div className="o-container-third">
           <div className="o-container-recenly">
