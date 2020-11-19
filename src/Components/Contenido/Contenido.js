@@ -2,6 +2,9 @@ import React from "react";
 import "./Contenidos.css"
 import imgGrafica from "./grafica.png"
 import imgWork from "./work.JPG"
+//el path nuevo M 4 598 L 58 572 L 86 599 L 137 575 L 153 599 L 201 571 L 239 599 L 251 565 L 323 593 L 396 565 
+//L 404 599 L 455 571 L 500 599 L 525 568 L 579 599 L 601 568 L 667 598 
+//Old Path M 100 300 A 0 50 0 1 1 250 250 L 308 297 L 396 264 L 429 297 L 495 264 L 550 297 L 572 264 L 660 286
 
 function Contenidos() {
     return (
@@ -70,7 +73,8 @@ function Contenidos() {
                 <p>26 Sep, 2020</p>
                 <p>L</p>
                 <h3>Management</h3>
-                <svg viewBox="0 0 1440 320"><path fill="black" fillOpacity= "1" d="M 100 300 A 0 50 0 1 1 250 250 L 308 297 L 396 264 L 429 297 L 495 264 L 550 297 L 572 264 L 660 286">
+  
+                <svg viewBox="0 0 1440 320"><path fill="black" fillOpacity= "1" d="M 4 598 L 58 572 L 86 599 L 137 575 L 153 599 L 201 571 L 239 599 L 251 565 L 323 593 L 396 565 L 404 599 L 455 571 L 500 599 L 525 568 L 579 599 L 601 568 L 667 598">
                 </path>
                 </svg>
               </div>

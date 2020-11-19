@@ -83,10 +83,11 @@
 }
 
 .o-card-expenses svg {
+    width: 245px;
     display: flex;
     position: absolute;
-    transform: translateY(68px) translateX(-38px);
-    background: none;
+    transform: translateY(84px) translateX(-20px);
+    background: blue;
 }
 
 
