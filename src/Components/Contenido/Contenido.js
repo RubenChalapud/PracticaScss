@@ -1,6 +1,7 @@
 import React from "react";
 import Contenedor1 from "./Contenedor1/Contenedor1";
 import Contenedor2 from "./Contenedor2/Contenedor2";
+import Contenedor3 from "./Contenedor3/Contenedor3";
 import "./Contenidos.css"
 import imgGrafica from "./grafica.png"
 import imgWork from "./work.JPG"
@@ -13,61 +14,7 @@ function Contenidos() {
       <div className="o-contenidos">
         <Contenedor1></Contenedor1>
         <Contenedor2 imgGrafica={imgGrafica}></Contenedor2>
-
-        <div className="o-container-third">
-          <div className="o-container-recenly">
-            <div className="o-container-recenly-title">
-              <h1>Invoices</h1>
-              <p>recently created</p>
-              <div className="o-recently-logos">
-                <p>L</p>
-                <p>L</p>
-              </div>
-            </div>
-            <div className="o-container-new-recenly">
-              <div className="o-recenly-invoice">
-                <div className="o-upload-box">
-                  <p>L</p>
-                  <p>Upload invoice</p>
-                </div>
-              </div>
-              <div className="o-recenly-invoice">
-                <div className="o-container-numbers">
-                  <div className="o-linea"></div>
-                  <div className="o-numbers-invoice">
-                    <p>#00106</p>
-                    <p>Mindtickle</p>
-                    <p>2 Sep, 2020</p>
-                  </div>
-                </div>
-                <div className="o-separador">
-                </div>
-                <div className="o-total-invoice">
-                  <p>Viewed</p>
-                  <p>$3,500</p>
-                </div>
-              </div>
-              <div className="o-recenly-invoice">
-              <div className="o-container-numbers">
-                  <div className="o-linea"></div>
-                  <div className="o-numbers-invoice">
-                    <p>#00105</p>
-                    <p>Cleancloud</p>
-                    <p>1 Sep, 2020</p>
-                  </div>
-                </div>
-                <div className="o-separador">
-                </div>
-                <div className="o-total-invoice">
-                  <p>Sent</p>
-                  <p>$2,000</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <img src={imgWork} className="o-img-work" alt="Imagen de Work"></img>
-        </div>
-        
+        <Contenedor3 imgWork={imgWork}></Contenedor3>
       </div>
     );
   }
