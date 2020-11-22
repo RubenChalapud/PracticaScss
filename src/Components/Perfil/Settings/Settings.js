@@ -1,11 +1,12 @@
 import React from "react";
+import SettingsStyles from "./Settings.module.scss"
 
-function Settings() {
+function Settings({svg,svg2}) {
     return (
-    <div className="o-perfil-settings-container">
-        <p>n</p>
+    <div className={SettingsStyles.operfilsettingscontainer}>
+        <img className={SettingsStyles.ologo} src={svg}></img>
         <p>Settings</p>
-        <p>&gt;</p>
+        <img className={SettingsStyles.ologo2} src={svg2}></img>
     </div>
     );
   }
