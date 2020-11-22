@@ -1,8 +1,8 @@
 import React from "react";
-
+import OutStandingBarStyle from './OutstandingBar.module.scss';
 function OutstandingBar() {
     return (
-            <div className="o-outstanding-container-bar">
+            <div className={OutStandingBarStyle.ooutstandingcontainerbar}>
                 <button></button>
                 <h5>$21.3k</h5>
             </div>

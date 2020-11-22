@@ -2,10 +2,10 @@ import React from "react";
 import OutstandingBar from "./OutstandingBar/OutstandingBar";
 import OutstandingOverdue from "./OutstandingOverdue/OutstandingOverdue";
 import OutstandingTitle from "./OutstandingTitle/OutstandingTitle";
-
+import OutstandingContedorStyle from './OutstandingContenedor.module.scss';
 function OutstandingContenedor() {
     return (
-            <div className="o-container-outstanding-title">
+            <div className={OutstandingContedorStyle.ocontaineroutstandingtitle}>
                 <OutstandingTitle></OutstandingTitle>
                 <OutstandingBar></OutstandingBar>
                 <OutstandingOverdue></OutstandingOverdue>
