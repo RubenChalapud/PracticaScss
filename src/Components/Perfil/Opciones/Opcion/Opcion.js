@@ -4,8 +4,8 @@ import OpcionStyle from "./Opcion.module.scss"
 function Opcion({icon, text}) {
     return (
         <div className={OpcionStyle.ocontaineroption}>
-            <p>{icon}</p>
-            <p>{text}</p>
+            <img src={icon} className={OpcionStyle.oimg}></img>
+            <p className={OpcionStyle.otext}>{text}</p>
         </div>
     );
   }

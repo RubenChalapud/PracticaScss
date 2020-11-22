@@ -1,7 +1,16 @@
 .ocontaineroption {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-content: center;
     align-items: center;
+}
+
+.oimg{
+    width: 1rem;
+    transform: translateX(6rem);
+}
+
+.otext{
+    transform: translateX(8.7rem);
 }

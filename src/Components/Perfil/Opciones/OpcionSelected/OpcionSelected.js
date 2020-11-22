@@ -1,11 +1,11 @@
 import React from "react";
 import OpcionSelectedStyle from "./OpcionSelected.module.scss"
 
-function OpcionSelected() {
+function OpcionSelected({arrow,logodash}) {
     return (
-    <div className={OpcionSelectedStyle.ocontaineroption, OpcionSelectedStyle.ocontaineroptionselected}>
-        <p>&gt;</p>
-        <p>n</p>
+    <div className={OpcionSelectedStyle.ocontaineroption}>
+        <img src={arrow} className={OpcionSelectedStyle.oimg}></img>
+        <img src={logodash} className={OpcionSelectedStyle.oimgrocket}></img>
         <p>Dashboard</p>
     </div>
     );
