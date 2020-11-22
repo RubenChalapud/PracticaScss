@@ -1,0 +1,21 @@
+.onavcontainerbotonselect {
+    display: flex;
+    flex-direction: row;
+}
+.onavbotonselect{
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 30rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: #D1FFD5;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+.osvgboton {
+    align-self: center;
+    position: absolute;
+    margin-left: -1rem;
+}

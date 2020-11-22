@@ -1,8 +1,9 @@
 import React from "react";
+import NavBotonStyle from './NavBotonMas.module.scss';
 
 function NavBotonMas() {
     return (
-        <button className="o-nav-boton o-nav-boton-mas">+</button>     
+        <button className={NavBotonStyle.onavboton}>+</button>     
     );
   }
   

@@ -1,8 +1,9 @@
 import React from "react";
+import NavBotonStyle from './NavBoton.module.scss';
 
 function NavBoton({text}) {
     return (
-    <button className="o-nav-boton">{text}</button>       
+    <button className={NavBotonStyle.NavBotonStyle}>{text}</button>       
     );
   }
   

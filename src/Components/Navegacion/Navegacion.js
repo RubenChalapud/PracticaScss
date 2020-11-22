@@ -1,11 +1,11 @@
 import React from "react";
 import NavBotones from "./NavBotones/NavBotones";
-import "./Navegacion.css"
+import NavStyle from './Navegacion.module.scss';
 import NavIcons from "./NavIcons/NavIcons";
 
 function Navegacion() {
     return (
-      <div className="o-navegacion">
+      <div className={NavStyle.onavegacion}>
         <NavIcons></NavIcons>
         <NavBotones></NavBotones>     
       </div>

@@ -1,12 +1,13 @@
 import React from "react";
+import NavBotonStyle from './NavBotonSelect.module.scss';
 
 function NavBotonSelected() {
     return (
-        <div className="o-nav-container-boton-select">
-            <svg width="4" height="30" className="o-svg-boton">
+        <div className={NavBotonStyle.onavcontainerbotonselect}>
+            <svg width="4" height="30" className={NavBotonStyle.osvgboton}>
               <rect width="4" height="30" fill="#D1FFD5"/>
             </svg>
-            <button className="o-nav-boton o-nav-boton-select">∎</button>
+            <button className={NavBotonStyle.onavbotonselect}>∎</button>
         </div>   
     );
   }
