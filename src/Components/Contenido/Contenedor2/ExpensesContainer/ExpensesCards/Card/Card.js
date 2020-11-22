@@ -1,8 +1,9 @@
 import React from "react";
+import CardStyle from './Card.module.scss';
 
 function Card({monto, fecha, logo, titulo}){
     return(
-        <div className="o-card-expenses">
+        <div className={CardStyle.ocardexpenses}>
             <div>
                 <h5>{monto}</h5>
                 <p>l</p>

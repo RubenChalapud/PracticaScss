@@ -1,0 +1,19 @@
+.ocardexpenses {
+    position: relative;
+    box-sizing: border-box;
+    width: 222px;
+    height: 276px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 1rem;
+    margin-top: 0;
+    background: #F0F4FF;
+}
+
+.ocardexpenses svg {
+    width: -webkit-fill-available;
+    display: flex;
+    position: absolute;
+    transform: translateY(25px) translateX(-20px);
+    background: #F0F4FF;
+}

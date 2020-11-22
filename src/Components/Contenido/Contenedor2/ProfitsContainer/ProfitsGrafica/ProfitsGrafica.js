@@ -1,8 +1,9 @@
 import React from "react";
+import ProfitsGraficaStyles from "./ProfitsGrafica.modules.scss"
 
 function ProfitsGrafica({imgGrafica}){
     return(
-        <img src={imgGrafica} className="o-img-grafica" alt="Imagen de grafica"></img>
+        <img src={imgGrafica} className={ProfitsGraficaStyles.oimggrafica} alt="Imagen de grafica"></img>
     );
 }
 
