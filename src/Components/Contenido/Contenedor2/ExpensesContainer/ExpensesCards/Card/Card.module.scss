@@ -17,3 +17,16 @@
     transform: translateY(25px) translateX(-20px);
     background: #F0F4FF;
 }
+
+.ocardclipcontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.oclip{
+    width: 0.9rem;
+}
+
+.ologo{
+    width: 2.5rem;
+}

@@ -1,11 +1,12 @@
 import React from "react";
 import ExpensesTitleStyle from './ExpensesTitle.module.scss';
+import Arrow from "../../../../../Svgs/arrow.svg";
 
 function ExpensesTitle() {
     return(
         <div className={ExpensesTitleStyle.ocontainertitleexpenses}>
               <h1>Expenses</h1>
-              <p>L</p>
+              <img src={Arrow} className={ExpensesTitleStyle.ologo}></img>
         </div>
     );
 }
