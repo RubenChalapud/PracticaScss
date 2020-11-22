@@ -4,10 +4,11 @@ import "./Perfil.css"
 import imgPerfil from "./persona.png"
 import Persona from "./Persona/Persona";
 import Settings from "./Settings/Settings";
+import PerfilStyles from "./Perfil.module.scss";
 
 function Perfil() {
     return (
-      <div className="o-perfil">
+      <div className={PerfilStyles.operfil}>
         <Persona img={imgPerfil}></Persona>
         <Opciones></Opciones>
         <Settings></Settings>

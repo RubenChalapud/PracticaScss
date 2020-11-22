@@ -1,10 +1,11 @@
 import React from "react";
 import Opcion from "./Opcion/Opcion";
 import OpcionSelected from "./OpcionSelected/OpcionSelected";
+import OpcionesStyles from "./Opciones.module.scss"
 
 function Opciones() {
     return (
-    <div className="o-perfil-nav-container">
+    <div className={OpcionesStyles.operfilnavcontainer}>
         <OpcionSelected></OpcionSelected>
         <Opcion icon={"n"} text={"Clients"}></Opcion>
         <Opcion icon={"n"} text={"Invoices"}></Opcion>

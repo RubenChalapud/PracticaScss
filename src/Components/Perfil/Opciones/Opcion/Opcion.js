@@ -1,8 +1,9 @@
 import React from "react";
+import OpcionStyle from "./Opcion.module.scss"
 
 function Opcion({icon, text}) {
     return (
-        <div className="o-container-option">
+        <div className={OpcionStyle.ocontaineroption}>
             <p>{icon}</p>
             <p>{text}</p>
         </div>

@@ -1,0 +1,12 @@
+.ocontaineroption {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.ocontaineroptionselected {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
