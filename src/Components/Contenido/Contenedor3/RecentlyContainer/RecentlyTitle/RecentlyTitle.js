@@ -1,11 +1,12 @@
 import React from "react";
+import RecentlyTitleStyle from "./RecentlyTitle.module.scss"
 
 function RecentlyTitle(){
     return(
-        <div className="o-container-recenly-title">
+        <div className={RecentlyTitleStyle.ocontainerrecenlytitle}>
             <h1>Invoices</h1>
             <p>recently created</p>
-            <div className="o-recently-logos">
+            <div className={RecentlyTitleStyle.orecentlylogos}>
                 <p>L</p>
                 <p>L</p>
             </div>

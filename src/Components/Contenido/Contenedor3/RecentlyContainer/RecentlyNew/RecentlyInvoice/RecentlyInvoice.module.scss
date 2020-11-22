@@ -1,0 +1,24 @@
+.orecenlyinvoice {
+    position: relative;
+    box-sizing: border-box;
+    width: 210px;
+    height: 210px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 1rem;
+    margin-top: 0;
+    background: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.oseparador {
+    height: 1px;
+    width: 150px;
+    background-color: #EBEBEB;
+    position: absolute;
+    margin-top: 5rem;
+}

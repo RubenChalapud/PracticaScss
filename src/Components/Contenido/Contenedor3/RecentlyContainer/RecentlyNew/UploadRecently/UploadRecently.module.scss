@@ -1,0 +1,29 @@
+.orecenlyinvoice {
+    position: relative;
+    box-sizing: border-box;
+    width: 210px;
+    height: 210px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 1rem;
+    margin-top: 0;
+    background: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ouploadbox {
+    margin: 0;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    border-radius: 20px;
+    border: 0.17em dashed #C8C8C8;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,10 +1,11 @@
 import React from "react";
 import RecentlyNew from "./RecentlyNew/RecentlyNew";
 import RecentlyTitle from "./RecentlyTitle/RecentlyTitle";
+import RecentlyContainerStyle from "./RecentlyContainer.module.scss"
 
 function RecentlyContainer(){
     return(
-        <div className="o-container-recenly">
+        <div className={RecentlyContainerStyle.ocontainerrecenly}>
             <RecentlyTitle></RecentlyTitle>
             <RecentlyNew></RecentlyNew>
           </div>

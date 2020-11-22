@@ -1,8 +1,9 @@
 import React from "react";
+import ImgWorkStyle from "./ImgWork.module.scss"
 
 function ImgWork({imgWork}){
     return(
-        <img src={imgWork} className="o-img-work" alt="Imagen de Work"></img>
+        <img src={imgWork} className={ImgWorkStyle.oimgwork} alt="Imagen de Work"></img>
     );
 }
 
