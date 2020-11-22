@@ -5,3 +5,23 @@
     align-content: center;
     align-items: center;
 }
+.outbarracontainer{
+    display: flex;
+    width: 15rem;
+    justify-content: center;
+    align-content: center;
+    height: 1.5rem;
+    border-radius: 2px;
+}
+.outbarragris{
+    width: 60%;
+    background-color: #F6F6F6;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.outbarranegra{
+    width: 40%;
+    background-color: #000000;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
