@@ -1,5 +1,7 @@
 import React from "react";
-import RecentlyTitleStyle from "./RecentlyTitle.module.scss"
+import RecentlyTitleStyle from "./RecentlyTitle.module.scss";
+import Arrow from "../../../../../Svgs/arrow.svg";
+import BarsCircle from "../../../../../Svgs/barsCircle.svg"
 
 function RecentlyTitle(){
     return(
@@ -7,8 +9,8 @@ function RecentlyTitle(){
             <h1>Invoices</h1>
             <p>recently created</p>
             <div className={RecentlyTitleStyle.orecentlylogos}>
-                <p>L</p>
-                <p>L</p>
+                <img src={BarsCircle} className={RecentlyTitleStyle.ologo}></img>
+                <img src={Arrow} className={RecentlyTitleStyle.ologo}></img>
             </div>
         </div>
     );
