@@ -6,9 +6,9 @@ function NumberContainer({number, title, date}){
           <div className={NumberContainerStyles.ocontainernumbers}>
             <div className={NumberContainerStyles.olinea}></div>
             <div className={NumberContainerStyles.onumbersinvoice}>
-                <p>{number}</p>
-                <p>{title}</p>
-                <p>{date}</p>
+                <p className={NumberContainerStyles.op}>{number}</p>
+                <p className={NumberContainerStyles.otitle}>{title}</p>
+                <p className={NumberContainerStyles.op}>{date}</p>
             </div>
           </div>
     );
