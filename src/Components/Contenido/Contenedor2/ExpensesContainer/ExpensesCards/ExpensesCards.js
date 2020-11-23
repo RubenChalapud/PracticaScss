@@ -8,9 +8,9 @@ import client from "../../../../../Svgs/more.svg"
 function ExpensesCards(){
     return(
         <div className={ExpensesCardStyles.ocontainercardsexpenses}>
-            <Card monto={"$20.oo"} fecha={"23 Sep, 2020"} logo={atlassian} titulo={"Software"}></Card>
-            <Card monto={"$30.oo"} fecha={"26 Sep, 2020"} logo={client} titulo={"Management"}></Card>
-            <Card monto={"$60.oo"} fecha={"22 Sep, 2020"} logo={Apple} titulo={"Support"}></Card>
+            <Card monto={"$20.oo"} fecha={"23 Sep, 2020"} logo={atlassian} titulo={"Software"} color={"purple"}></Card>
+            <Card monto={"$30.oo"} fecha={"26 Sep, 2020"} logo={client} titulo={"Management"} color={"green"}></Card>
+            <Card monto={"$60.oo"} fecha={"22 Sep, 2020"} logo={Apple} titulo={"Support"} color={"blue"}></Card>
         </div>
     );
 }

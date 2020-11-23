@@ -1,10 +1,19 @@
 import React from "react";
 import CardStyle from './Card.module.scss';
+import Cardpurple from './Cardpurple.module.scss';
+import Cardgreen from './Cardgreen.module.scss';
 import Clip from "../../../../../../Svgs/clip.svg";
 
-function Card({monto, fecha, logo, titulo}){
+const StylesMap = {
+    purple: Cardpurple.ocardexpenses,
+    green: Cardgreen.ocardexpenses,
+    blue: CardStyle.ocardexpenses,
+};
+
+
+function Card({monto, fecha, logo, titulo,color}){
     return(
-        <div className={CardStyle.ocardexpenses}>
+        <div className={StylesMap[color]}>
             <div className={CardStyle.ocardclipcontainer}>
                 <h5>{monto}</h5>
                 <img src={Clip} className={CardStyle.oclip}></img>
