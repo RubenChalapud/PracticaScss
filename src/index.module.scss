@@ -1,13 +1,11 @@
-@font-face {
-    font-family: 'SFPro';
-    src: url("/Fuentes/DP_roobert/RoobertTRIAL-Medium.otf") format("truetype");
- }
-
  @font-face {
     font-family: 'Ligth';
     src: url("/Fuentes/DP_roobert/RoobertTRIAL-Light.otf") format("truetype");
  }
-
+ @font-face {
+   font-family: 'Semibold';
+   src: url("/Fuentes/DP_roobert/RoobertTRIAL-SemiBold.otf") format("truetype");
+}
  @font-face {
     font-family: 'Bold';
     src: url("/Fuentes/DP_roobert/RoobertTRIAL-Bold.otf") format("truetype");
@@ -25,5 +23,5 @@
 
 body {
     margin: 0;
-    font-family: 'SFPro';
+    font-family: 'SFMedium';
 }

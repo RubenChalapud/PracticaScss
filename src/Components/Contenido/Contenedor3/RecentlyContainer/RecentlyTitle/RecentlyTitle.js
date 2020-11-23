@@ -6,8 +6,8 @@ import BarsCircle from "../../../../../Svgs/barsCircle.svg"
 function RecentlyTitle(){
     return(
         <div className={RecentlyTitleStyle.ocontainerrecenlytitle}>
-            <h1>Invoices</h1>
-            <p>recently created</p>
+            <h1 className={RecentlyTitleStyle.otitle}>Invoices</h1>
+            <p className={RecentlyTitleStyle.op}>recently created</p>
             <div className={RecentlyTitleStyle.orecentlylogos}>
                 <img src={BarsCircle} className={RecentlyTitleStyle.ologo}></img>
                 <img src={Arrow} className={RecentlyTitleStyle.ologo}></img>

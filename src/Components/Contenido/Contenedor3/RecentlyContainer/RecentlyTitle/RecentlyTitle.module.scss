@@ -3,7 +3,14 @@
     flex-direction: row;
     align-items: baseline;
 }
-
+.otitle{
+    font-family: 'SFMedium';
+}
+.op{
+    font-family: 'Ligth';
+    margin-left: 1rem;
+    color: #999999;
+}
 .orecentlylogos {
     display: flex;
     flex-direction: row;
@@ -13,4 +20,5 @@
 
 .ologo{
     width: 1.2rem;
+    margin-left: 2rem;
 }
