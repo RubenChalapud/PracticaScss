@@ -3,6 +3,26 @@
     src: url("/Fuentes/DP_roobert/RoobertTRIAL-Medium.otf") format("truetype");
  }
 
+ @font-face {
+    font-family: 'Ligth';
+    src: url("/Fuentes/DP_roobert/RoobertTRIAL-Light.otf") format("truetype");
+ }
+
+ @font-face {
+    font-family: 'Bold';
+    src: url("../../../../../Fuentes/DP_roobert/RoobertTRIAL-Bold.otf") format("truetype");
+ }
+
+ @font-face {
+    font-family: 'Regular';
+    src: url("../../../../../Fuentes/DP_roobert/RoobertTRIAL-Regular.otf") format("truetype");
+ }
+
+ @font-face {
+    font-family: 'SFMedium';
+    src: url("../../../../../Fuentes/DP_roobert/SF-Pro-Text-Medium.otf") format("truetype");
+ }
+
 body {
     margin: 0;
     font-family: 'SFPro';

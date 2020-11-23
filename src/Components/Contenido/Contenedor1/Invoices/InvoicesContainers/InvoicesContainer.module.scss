@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Bold';
+    src: url("/Fuentes/DP_roobert/RoobertTRIAL-Medium.otf") format("truetype");
+ }
+
 .ocontainerinvoices {
     display: flex;
     flex-direction: row;
@@ -6,4 +11,12 @@
 
 .oinvoice {
     margin-left: 3rem;
+}
+
+.oinvoiceValor{
+    width: 5rem;
+}
+
+.oinvoiceTitle{
+    width: 5rem;
 }
