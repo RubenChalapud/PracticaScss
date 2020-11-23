@@ -5,7 +5,7 @@ import Arrow from "../../../../../Svgs/arrow.svg";
 function ExpensesTitle() {
     return(
         <div className={ExpensesTitleStyle.ocontainertitleexpenses}>
-              <h1>Expenses</h1>
+              <h1 className={ExpensesTitleStyle.otitleexpenses}>Expenses</h1>
               <img src={Arrow} className={ExpensesTitleStyle.ologo}></img>
         </div>
     );

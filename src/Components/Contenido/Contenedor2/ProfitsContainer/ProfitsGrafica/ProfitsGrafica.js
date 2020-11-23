@@ -3,7 +3,7 @@ import ProfitsGraficaStyles from "./ProfitsGrafica.modules.scss"
 
 function ProfitsGrafica({imgGrafica}){
     return(
-        <img src={imgGrafica} className={ProfitsGraficaStyles.oimggrafica} alt="Imagen de grafica"></img>
+        <img className={ProfitsGraficaStyles.oimggrafica} src={imgGrafica} alt="Imagen de grafica"></img>
     );
 }
 
