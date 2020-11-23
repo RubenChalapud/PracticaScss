@@ -3,15 +3,28 @@
     flex-direction: row;
     justify-content: space-around;
     margin-top: 15rem;
-    transform: translateY(-2.1rem);
+    //transform: translateY(-2.1rem);
 }
 
 .ologo{
     width: 1.2rem;
-    transform: translateX(2.2rem);
+    //transform: translateX(4rem);
 }
 
 .ologo2{
     width: 0.5rem;
-    transform: translateX(-1rem);
+    //transform: translateX(-1rem);
+}
+
+@font-face{
+    font-family: Roobert;
+    src: url("/Fuentes/DP_roobert/RoobertTRIAL-Light.otf") format("truetype");
+}
+
+.operfilp{
+    color: rgba(169, 167, 167, 1);
+    font-family: Roobert;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    //transform: translateX(2rem);
 }

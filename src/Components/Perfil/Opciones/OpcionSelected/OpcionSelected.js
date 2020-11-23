@@ -6,7 +6,7 @@ function OpcionSelected({arrow,logodash}) {
     <div className={OpcionSelectedStyle.ocontaineroption}>
         <img src={arrow} className={OpcionSelectedStyle.oimg}></img>
         <img src={logodash} className={OpcionSelectedStyle.oimgrocket}></img>
-        <p>Dashboard</p>
+        <p className={OpcionSelectedStyle.op}>Dashboard</p>
     </div>
     );
   }
