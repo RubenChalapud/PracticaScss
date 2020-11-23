@@ -4,6 +4,7 @@
     justify-content: space-around;
     align-content: center;
     align-items: center;
+    margin-top: 0;
 }
 .outbarracontainer{
     display: flex;
@@ -12,6 +13,8 @@
     align-content: center;
     height: 1.5rem;
     border-radius: 2px;
+    margin-top: 0;
+    margin-right: 1rem;
 }
 .outbarragris{
     width: 60%;
@@ -24,4 +27,12 @@
     background-color: #000000;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
+}
+
+.outtotal{
+    font-family: "SfMedium";
+    font-size: 1.7rem;
+    margin-top: 0;
+    margin-right: 4rem;
+    margin-bottom: 0;
 }

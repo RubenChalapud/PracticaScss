@@ -13,9 +13,9 @@ function OInvoices(props){
 function InvoicesContainer() {
     return (
         <div className={InvoicesContainerStyle.ocontainerinvoices}>
-            <OInvoices valor="$12.095" name="Overdue"></OInvoices>
-            <OInvoices valor="$33.363" name="Total outstanding"></OInvoices>
-            <OInvoices valor="$4.500" name="In draft"></OInvoices>
+            <OInvoices valor="$12,095" name="Overdue"></OInvoices>
+            <OInvoices valor="$33,363" name="Total outstanding"></OInvoices>
+            <OInvoices valor="$4,500" name="In draft"></OInvoices>
         </div>
     );
 }
