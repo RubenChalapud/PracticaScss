@@ -1,5 +1,5 @@
 import React from "react";
-import ProfitsGraficaStyles from "./ProfitsGrafica.modules.scss"
+import ProfitsGraficaStyles from "./ProfitsGrafica.module.scss";
 
 function ProfitsGrafica({imgGrafica}){
     return(
